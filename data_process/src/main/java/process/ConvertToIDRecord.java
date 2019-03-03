@@ -14,7 +14,7 @@ import process.entity.Video;
 import process.utils.FileUtil;
 import scala.Tuple2;
 
-// 生成 id_record.txt，中间结果
+// 生成中间结果 id_record.txt
 // userid,videoid,watchtime,ht
 //
 // spark-submit --driver-memory 128G --executor-memory 128G --conf spark.driver.maxResultSize=128g  --master localhost --class "process.ConvertToIDRecord"  data_process-1.0-SNAPSHOT.jar

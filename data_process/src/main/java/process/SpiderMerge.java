@@ -13,7 +13,7 @@ import process.utils.SpiderMatcher;
 
 import java.util.List;
 
-// 用爬虫数据填补videos.txt
+// 用爬虫数据填补videos.txt，没什么用
 public class SpiderMerge {
 
     private final static String video_file = "data/dataprocess/original/videos.txt";
